@@ -30,7 +30,8 @@ module.exports = function(eleventyConfig) {
   })
 
   eleventyConfig.addPassthroughCopy('./docs/assets')
-  eleventyConfig.addPassthroughCopy('./docs/CNAME')
+  eleventyConfig.addPassthroughCopy({'assets': 'content-performance/assets'})
+  
 
   return {
     dataTemplateEngine: 'njk',
