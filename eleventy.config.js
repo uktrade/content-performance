@@ -34,6 +34,7 @@ module.exports = function(eleventyConfig) {
   
 
   return {
+    pathPrefix: "/content-performance/",
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
