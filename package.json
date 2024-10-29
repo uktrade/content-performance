@@ -4,5 +4,5 @@
     "@x-govuk/govuk-eleventy-plugin": "^6.2.1"
   },
   "scripts": {
-    "build": "eleventy" }
+    "build": "eleventy --pathprefix=content-performance" }
 }
