@@ -39,6 +39,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       // Use layouts from the plugin
       input: 'docs',
+      output: "_site",
       layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
     }
   }
