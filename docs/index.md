@@ -1,7 +1,7 @@
 ---
 homepage: true
 layout: product
-title: Decompress ZIP files while downloading them
+title: A Content Performance site
 description: Use this Python package to unZIP all the files in a ZIP archive, without needing the entire archive in memory or disk at once.
 startButton:
   href: "get-started"
