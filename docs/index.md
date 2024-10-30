@@ -18,10 +18,7 @@ startButton:
 
 ## Overview
 
-This is markdown content for everyone to see.
-
-
-And this is another sentence. Really speedy
+This is markdown content.
 
 <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0">
 
