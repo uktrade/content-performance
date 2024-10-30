@@ -1,5 +1,6 @@
 const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
-const fs = require('fs')
+const fs = require('fs');
+
 
 module.exports = function(eleventyConfig) {
   // Register the plugin
@@ -35,6 +36,7 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
+    PathPrefix: 'content-performance',
     dir: {
       // Use layouts from the plugin
       input: 'docs',
