@@ -7,6 +7,14 @@ startButton:
   href: "get-started"
   text: Get started
 ---
+{% from "govuk/components/phase-banner/macro.njk" import govukPhaseBanner %}
+
+{{ govukPhaseBanner({
+  tag: {
+    text: "Experimental"
+  },
+  html: 'This is an experimental site. Help us improve it by contributing to the <a class="govuk-link" href="https://github.com/uktrade/content-performance">GitHub repository</a>.'
+}) }}
 
 ## Overview
 
