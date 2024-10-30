@@ -11,14 +11,14 @@ module.exports = function(eleventyConfig) {
       logotype: {
         html: fs.readFileSync('./docs/assets/dit-logo.svg', {encoding: 'utf8'})
       },
-      productName: 'stream-unzip',
+      productName: 'Content Performance Playbook',
     },
     footer: {
       meta: {
         items: [
           {
-            href: 'https://github.com/uktrade/stream-unzip',
-            text: 'GitHub repository for stream-unzip'
+            href: 'https://github.com/uktrade/content-performance',
+            text: 'GitHub repository for cotent-performance'
           },
           {
             href: 'https://www.gov.uk/government/organisations/department-for-business-and-trade',
