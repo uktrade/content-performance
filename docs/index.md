@@ -2,7 +2,7 @@
 homepage: true
 layout: product
 title: Content Performance Playbook
-description: A description of the site.
+description: Documentation and guidance to help DBT content designers and colleagues more effectively measure and evaluate the performance of content.
 startButton:
   href: "get-started"
   text: Get started
